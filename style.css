@@ -1,0 +1,387 @@
+body
+{
+	
+}
+
+				/*Header*/
+.header{
+	height:200px;
+}
+				/*Logo*/
+.logo a{
+	margin-top:-40px;
+	margin-left:50px;
+	padding:1em;
+	width:450px;
+	font-size:42px;
+	text-decoration:none;
+	color:#999999;
+	font-family: 'Archivo Narrow', sans-serif;
+	display: block;
+}
+
+.logo img{
+	height:150;
+	width:280;
+}
+				/*Top Nav*/
+.top-menu ul
+{
+	margin-left:720px;
+	margin-top:-150px;
+	width:570px;;
+	border-radius:20px;
+	list-style-type: none;
+	position:none;
+    	overflow: hidden;
+    	background-color: skyblue;
+}
+
+.top-menu li
+{
+   	float: left; 
+}
+
+.top-menu li a
+{
+    	display: block;
+    	color: black;
+    	text-align: center;
+  	padding: 15px;
+   	text-decoration: none;
+	
+}
+
+.top-menu li a:hover
+{
+    	background-color: blue;
+	color: white;
+}
+
+.active
+{
+    	background-color: blue;
+	color: white;
+	opacity:0.8;
+}
+
+
+				/*Banner*/
+.banner
+{
+	background:url(images/2.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	width:100%;
+	min-height:400px;
+}
+.banner1
+{
+	background:url(images/banner.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	width:100%;
+	min-height:400px;
+}
+
+				/*Main*/
+.main
+{
+	height:1230px;
+}
+
+.tech img
+{
+	height:400px;
+	width:100%;
+	border-radius:15px;
+	margin-top:5px;
+}
+
+.home
+{
+	background-color:dark blue;
+	
+}
+.home h1
+{
+	text-align:center;
+	color:white;
+	text-size:72px;
+	margin-top:-2px;
+}
+
+.home table
+{
+	background:rgba(240,248,255,0.8);
+	width:100%;
+	align:center;
+	padding:2px;
+	border-radius:25px;
+}
+
+.home1 th
+{
+	text-align:center;
+}
+
+.home1 tr
+{
+	text-align:center;
+}
+
+.home1 td
+{
+	text-align:center;
+	border-radius:15px;
+}
+
+.home1 td:hover
+{
+	background: rgba(105,105,105,0.5);
+}
+				
+				/*Team*/
+.team img
+{
+	height:120px;
+	width:100px;
+	padding-left:30px;
+}		
+
+
+.team-details
+{
+	margin-top:-40px;
+	color:black;
+	padding-top:80px;
+	padding-left:150px;
+}		
+
+.team-details p
+{
+	text-align:center;
+}
+
+.team-details td,th
+{
+	padding:10px;
+	border-spacing:10px;
+}
+
+				/*FAQs*/
+.ques table
+{
+	background:rgba(240,248,255,0.8);
+	width:100%;
+	align:center;
+	padding:2px;
+	border-radius:25px;
+}	
+
+.ques th,td
+{
+	text-align:center;
+	border-color:black;
+	border-radius:15px;
+}		
+
+				/*Why*/
+.why
+{
+	width:290px;
+	float:right;
+	margin-top:-520px;
+	margin-right:20px;
+	background:rgba(240,248,255,0.8);
+	border-radius:10px;
+}
+
+.why h2
+{
+	color:blue;
+}
+
+.why ul
+{
+	border-radius:20px;
+	list-style-type: none;
+	position:none;
+    	overflow: hidden;
+}
+
+.why li
+{
+	display: block;
+    	color: black;
+    	font-size:12px;
+  	padding: 3px;
+   	text-decoration: none;
+}
+
+				/*Contact*/
+.contactus input[type=text]
+{
+	text-align:center;
+	width: 30%;
+	padding: 8px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border-left: 6px solid white;
+    	background-color: white;
+}
+.contactus input[type=submit]
+{
+	width: 20%;
+	background-color: white;	    
+	color: black;	  
+	padding: 4px 10px;	    
+	margin: 8px 0;	    
+	border: none;   
+	border-radius: 4px;
+	cursor: pointer;
+}
+.contactus input[type=submit]:hover 
+{
+	background-color: blue;
+	color: white;
+}
+				/*Issue*/
+.myForm input[type=text], textarea
+{
+	
+	text-align:center;
+	width: 30%;
+	padding: 8px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	border-left: 6px solid white;
+    	background-color: white;
+}
+.myForm input[type=submit] 
+{
+	width: 20%;
+	background-color: white;	    
+	color: black;	  
+	padding: 4px 10px;	    
+	margin: 8px 0;	    
+	border: none;   
+	border-radius: 4px;
+	cursor: pointer;
+}
+.myForm input[type=submit]:hover 
+{
+	background-color: blue;
+	color: white;
+}
+.myForm input[type=reset] 
+{
+	width: 20%;
+	background-color: white;	    
+	color: black;	    
+	padding: 4px 20px;	    
+	margin: 8px 0;	    
+	border: none;   
+	border-radius: 4px;
+	cursor: pointer;
+}
+.myForm input[type=reset]:hover 
+{
+	background-color: blue;
+	color: white;
+}
+	
+	
+.myForm textarea
+{
+	border-radius:4px;
+	border:none;
+	text-align:center;
+}
+
+.myForm h1
+{
+	color:black;
+}
+
+				/*Services*/
+.service
+{
+	
+}
+
+.service table
+{
+	background:rgba(240,248,255,0.8);
+	width:100%;
+	align:center;
+	padding:2px;
+	border-radius:15px;
+}
+
+.ser th
+{
+	text-align:center;
+}
+
+.ser tr
+{
+	text-align:center;
+}
+
+.ser td
+{
+	text-align:center;
+	padding:2px;
+	border-radius:15px;
+}
+
+.ser td:hover
+{
+	background:rgba(25,25,112,0.8);
+	color:white;
+}
+				/*Footer*/
+.footer
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+
+.footer-grid p
+{
+	font-family: 'Archivo Narrow', sans-serif;
+	padding-right:20px;
+    	float:right;
+}		
+
+.footer-grid img
+{
+	margin-left:20px;
+	float:left;
+}		
+
+				/*Clear*/
+.clear 
+{
+	background: rgba(135,206,250,0.3);
+	padding:2px;
+}
+
+.clear1 
+{
+	background: rgba(105,105,105,0.5);
+	padding:10px;
+}
+
+.back
+{
+	background: rgba(25,25,112,0.8);
+	width:100%;
+	/*margin-top:-32px;*/
+}
